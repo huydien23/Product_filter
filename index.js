@@ -1,4 +1,4 @@
-var mockData = fetch('http://fakestoreapi.com/products')
+var mockData = fetch('https://api.allorigins.win/raw?url=http://fakestoreapi.com/products')
 .then(res=> {
     return res.json()
 })
@@ -36,3 +36,4 @@ searchInput.addEventListener('input', function(e) {
         }
     });
 });
+
